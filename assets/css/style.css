@@ -1,0 +1,39 @@
+.content {
+
+    background-color: #ffffff;
+    border: 15px solid #dddddd;
+    padding: 50px;
+    margin: 20px;
+    float:none;
+  }
+
+header {
+
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    background: #ffa500;
+  }
+
+pre {
+
+    float: right;
+}
+
+
+.nico {
+
+    font-size: 48px;
+}
+
+.link {
+
+    float: right
+
+}
+
+
+h2 {
+
+    
+}

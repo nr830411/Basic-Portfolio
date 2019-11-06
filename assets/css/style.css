@@ -7,12 +7,31 @@
     float:none;
   }
 
-header {
+body {
+    background-image: url('assets/images/dot-grid.png');
+    background-repeat: repeat;
+   }
+
+.nico {
+
+  background-color: #4aaaa5;
+  padding: 10px, 20px, 10px, 20px;
+  font-size: 20px;
+}
+
+.nico,
+h1,
+h2 {
+
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+header,{
 
     padding: 20px;
     margin-bottom: 10px;
-    color: #333;
-    background: #ffa500;
+    background-color: #4aaaa5;
   }
 
 pre {
@@ -21,10 +40,6 @@ pre {
 }
 
 
-.nico {
-
-    font-size: 48px;
-}
 
 .link {
 
@@ -35,5 +50,10 @@ pre {
 
 h2 {
 
-    
+
 }
+
+
+img {
+    float: none;
+  }

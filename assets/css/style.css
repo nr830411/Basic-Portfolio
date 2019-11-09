@@ -1,59 +1,111 @@
+body {
+  background-image: url("file:///Users/prisonhaircut/Desktop/Basic-Portfolio/assets/images/old_moon_@2X.jpg");
+  
+}
+
+.navbar{
+
+  padding: 20px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  widows: 1020px;
+  border: solid #cccccc 1px;
+  background-color: #ffffff;
+  font-family: sans-serif;
+
+}
+
+ul {
+
+  float: right;
+}
+
+li {
+  padding: 0px 15px;
+  display: inline-block;
+
+}
+
 .content {
 
-    background-color: #ffffff;
-    border: 15px solid #dddddd;
-    padding: 50px;
-    margin: 20px;
-    float:none;
-  }
+  background-color: #ffffff;
+  border: 15px solid #dddddd;
+  width: 960px;
+  padding: 50px 100px;
+  margin: 100px;
+  float: center;
+}
 
-body {
-    background-image: url('assets/images/dot-grid.png');
-    background-repeat: repeat;
-   }
 
-.nico {
+.contact {
+
+  background-color: #ffffff;
+  border: 15px solid #dddddd;
+  width: 960px;
+  padding: 50px 100px;
+  margin: 100px;
+  float: center;
+  
+}
+
+
+
+h1 {
 
   background-color: #4aaaa5;
-  padding: 10px, 20px, 10px, 20px;
-  font-size: 20px;
+  display: inline-block;
+  margin: 40px 40px;
+  border: 1px solid #4aaaa5;
+  border-radius: 3px;
+  color: white;
+  
+
 }
 
-.nico,
-h1,
+h2:after
+{
+    content:' ';
+    display:block;
+    border:2px solid #dddddd;
+}
+
 h2 {
-
   font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
 }
 
-
-header,{
-
-    padding: 20px;
-    margin-bottom: 10px;
-    background-color: #4aaaa5;
-  }
 
 pre {
 
     float: right;
+    border: 1px solid #4aaaa5;
+    border-radius: 3px;
+}
+
+p {
+
+  position: relative;
+
 }
 
 
 
-.link {
-
-    float: right
-
-}
-
-
-h2 {
-
-
-}
-
-
-img {
-    float: none;
+.img {
+    float: left;
+    padding: 10px;
   }
+
+
+
+
+.contact {
+
+  background-color: #ffffff;
+  border: 15px solid #dddddd;
+  padding: 100px;
+  margin: 50px;
+  float: center;
+
+
+}
